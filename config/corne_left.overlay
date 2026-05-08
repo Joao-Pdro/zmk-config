@@ -22,7 +22,3 @@
         zephyr,display = &oled;
     };
 };
-
-&vdd_env_ctrl {
-    startup-delay-us = <500000>;
-};
