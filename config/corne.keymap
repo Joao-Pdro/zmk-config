@@ -33,6 +33,15 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        epwr {
+            bindings = <&ext_power EP_ON>;
+            key-positions = <1 2>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
