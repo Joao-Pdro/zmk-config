@@ -70,7 +70,7 @@
             bindings = <
 &kp TAB        &kp PLUS         &mt AMPERSAND N7          &mt AMPERSAND RS(KP_NUMBER_8)  &kp KP_NUMBER_9     &kp KP_MULTIPLY      &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &mt BACKSPACE RIGHT_BRACKET
 &kp BACKSLASH  &kp MINUS        &mt DOLLAR NUMBER_4       &mt PERCENT N5                 &mt CARET NUMBER_6  &kp KP_DIVIDE        &kp LEFT        &kp DOWN         &kp UP                &kp RIGHT              &kp TILDE         &kp CARET
-&kp LSHFT      &kp KP_NUMBER_0  &mt EXCLAMATION NUMBER_1  &mt AT_SIGN NUMBER_2           &mt HASH NUMBER_3   &kp DOUBLE_QUOTES    &kp EQUAL       &kp QUESTION     &kp COMMA             &kp PERIOD             &ext_power EP_ON  &trans
+&kp LSHFT      &kp KP_NUMBER_0  &mt EXCLAMATION NUMBER_1  &mt AT_SIGN NUMBER_2           &mt HASH NUMBER_3   &ext_power EP_TOG    &kp EQUAL       &kp QUESTION     &kp COMMA             &kp PERIOD             &ext_power EP_ON  &trans
                                                           &kp LGUI                       &trans              &kp SPACE            &kp RET         &trans           &kp RALT
             >;
         };
