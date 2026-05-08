@@ -14,10 +14,11 @@
         com-invdir;
         com-sequential;
         prechargep = <0x22>;
-        label = "SSD1306";
     };
 };
 
-&chosen {
-    zephyr,display = &oled;
+/ {
+    chosen {
+        zephyr,display = &oled;
+    };
 };
