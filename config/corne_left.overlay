@@ -1,14 +1,4 @@
-&gpio0 {
-    status = "okay";
-    ext-power-hog {
-        gpio-hog;
-        gpios = <13 GPIO_ACTIVE_HIGH>;
-        output-high;
-    };
-};
-
 &pro_micro_i2c {
-    compatible = "nordic,nrf-twim";
     status = "okay";
     pinctrl-0 = <&i2c0_default>;
     pinctrl-1 = <&i2c0_sleep>;
