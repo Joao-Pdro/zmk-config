@@ -3,7 +3,7 @@
     ext-power-hog {
         gpio-hog;
         gpios = <13 GPIO_ACTIVE_HIGH>;
-        output-high; // Se não ligar, mude para: output-low;
+        output-low; // Se não ligar, mude para: output-low;
     };
 };
 
