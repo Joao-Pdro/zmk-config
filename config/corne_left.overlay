@@ -1,3 +1,12 @@
+&gpio0 {
+    status = "okay";
+    ext-power-hog {
+        gpio-hog;
+        gpios = <13 GPIO_ACTIVE_HIGH>;
+        output-high; // Se não ligar, mude para: output-low;
+    };
+};
+
 &pro_micro_i2c {
     status = "okay";
     pinctrl-0 = <&i2c0_default>;
