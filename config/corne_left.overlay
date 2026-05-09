@@ -1,7 +1,7 @@
 &pro_micro_i2c {
+    compatible = "nordic,nrf-twim";
     status = "okay";
     clock-frequency = <I2C_BITRATE_STANDARD>;
-    zephyr,concat-buf-size = <2048>;
 
     oled: ssd1306@3c {
         compatible = "solomon,ssd1306fb";
