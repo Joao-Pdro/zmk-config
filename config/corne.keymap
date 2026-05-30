@@ -53,10 +53,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp TAB    &kp Q  &kp W  &kp E          &kp R            &kp T        &mt LS(BACKSPACE) Y  &kp U  &kp I      &kp O    &kp P     &kp BSPC
-&kp LSHFT  &kp A  &kp S  &HMR INSERT D  &HMR LEFT_WIN F  &kp G        &kp H                &kp J  &kp K      &kp L    &kp SEMI  &mt SINGLE_QUOTE DOUBLE_QUOTES
-&kp LCTRL  &kp Z  &kp X  &HMR LC(C) C   &HMR LC(V) V     &kp B        &kp N                &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RIGHT_ALT
-                         &kp LEFT_ALT   &mo 1            &kp SPACE    &kp RET              &mo 2  &kp DEL
+&kp ESCAPE    &kp Q            &kp W            &kp E         &kp R              &kp T             &mt LS(BACKSPACE) Y  &kp U              &kp I          &kp O            &kp P                &kp PRINTSCREEN
+&kp CAPSLOCK  &HMR LEFT_WIN A  &HMR LEFT_ALT S  &HMR LCTRL D  &HMR LEFT_SHIFT F  &kp G             &kp H                &HMR LEFT_SHIFT J  &HMR LCTRL K   &HMR LEFT_ALT K  &HMR LWIN SEMICOLON  &mt SINGLE_QUOTE DOUBLE_QUOTES
+&kp LCTRL     &kp Z            &kp X            &kp C         &kp V              &kp B             &kp N                &kp M              &kp COMMA      &kp DOT          &kp FSLH             &kp RIGHT_ALT
+                                                &kp DEL       &mo 1              &HMR TAB SPACE    &kp RET              &mo 2              &kp BACKSPACE
             >;
         };
 
@@ -68,10 +68,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB     &kp PLUS   &mt AMPERSAND N7          &mt AMPERSAND N8      &kp N9              &kp KP_MULTIPLY    &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &mt BACKSPACE RIGHT_BRACKET
+&kp ESCAPE  &kp PLUS   &mt AMPERSAND N7          &mt AMPERSAND N8      &kp N9              &kp KP_MULTIPLY    &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &mt BACKSPACE RIGHT_BRACKET
 &kp LSHIFT  &kp MINUS  &mt DOLLAR NUMBER_4       &mt PERCENT N5        &mt CARET NUMBER_6  &kp KP_DIVIDE      &kp LEFT        &kp DOWN         &kp UP                &kp RIGHT              &kp TILDE         &kp CARET
 &kp RCTRL   &kp N0     &mt EXCLAMATION NUMBER_1  &mt AT_SIGN NUMBER_2  &mt HASH NUMBER_3   &kp BACKSLASH      &kp EQUAL       &kp QUESTION     &kp COMMA             &kp PERIOD             &ext_power EP_ON  &trans
-                                                 &kp LGUI              &trans              &kp SPACE          &kp RET         &trans           &kp RALT
+                                                 &kp DEL               &trans              &HMR TAB SPACE     &kp RET         &trans           &kp BACKSPACE
             >;
         };
 
@@ -84,7 +84,7 @@
 
             bindings = <
 &kp F1                &kp F2      &kp F3             &kp F4           &kp F5                &kp F6                  &kp F7      &kp F8      &kp F9      &kp F10       &kp F11   &kp F12
-&kp K_PLAY_PAUSE      &kp K_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_DEC    &kp MINUS   &kp EQUAL   &kp LBKT    &kp RBKT      &kp BSLH  &kp GRAVE
+&kp K_PLAY_PAUSE      &kp K_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC    &kp MINUS   &kp EQUAL   &kp LBKT    &kp RBKT      &kp BSLH  &kp GRAVE
 &mt LEFT_SHIFT LCTRL  &trans      &trans             &CEDILHA         &trans                &trans                  &bt BT_CLR  &bt BT_PRV  &bt BT_NXT  &bt BT_SEL 0  &kp PIPE  &kp TILDE
                                                      &kp LGUI         &trans                &kp SPACE               &kp RET     &trans      &kp RALT
             >;
