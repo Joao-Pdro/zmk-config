@@ -53,8 +53,8 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp ESCAPE    &kp Q            &kp W            &kp E         &kp R              &kp T             &mt LS(BACKSPACE) Y  &kp U              &kp I          &kp O            &kp P                &kp PRINTSCREEN
-&kp CAPSLOCK  &HMR LEFT_WIN A  &HMR LEFT_ALT S  &HMR LCTRL D  &HMR LEFT_SHIFT F  &kp G             &kp H                &HMR LEFT_SHIFT J  &HMR LCTRL K   &HMR LEFT_ALT K  &HMR LWIN SEMICOLON  &mt SINGLE_QUOTE DOUBLE_QUOTES
+&kp ESCAPE    &kp Q            &kp W            &kp E         &kp R              &kp T             &mt LS(BACKSPACE) Y  &kp U              &kp I          &kp O            &kp P                &kp BACKSPACE
+&kp CAPSLOCK  &HMR LEFT_WIN A  &HMR LEFT_ALT S  &HMR LCTRL D  &HMR LEFT_SHIFT F  &kp G             &kp H                &HMR LEFT_SHIFT J  &HMR LCTRL K   &HMR LEFT_ALT L  &HMR LWIN SEMICOLON  &mt SINGLE_QUOTE DOUBLE_QUOTES
 &kp LCTRL     &kp Z            &kp X            &kp C         &kp V              &kp B             &kp N                &kp M              &kp COMMA      &kp DOT          &kp FSLH             &kp RIGHT_ALT
                                                 &kp DEL       &mo 1              &HMR TAB SPACE    &kp RET              &mo 2              &kp BACKSPACE
             >;
@@ -69,7 +69,7 @@
 
             bindings = <
 &kp ESCAPE  &kp PLUS   &mt AMPERSAND N7          &mt AMPERSAND N8      &kp N9              &kp KP_MULTIPLY    &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &mt BACKSPACE RIGHT_BRACKET
-&kp LSHIFT  &kp MINUS  &mt DOLLAR NUMBER_4       &mt PERCENT N5        &mt CARET NUMBER_6  &kp KP_DIVIDE      &kp LEFT        &kp DOWN         &kp UP                &kp RIGHT              &kp TILDE         &kp CARET
+&kp LSHIFT  &kp MINUS  &mt DOLLAR NUMBER_4       &mt PERCENT N5        &mt CARET NUMBER_6  &kp KP_DIVIDE      &kp TILDE       &kp LEFT_ARROW   &kp DOWN_ARROW        &kp UP_ARROW           &kp RIGHT         &kp CARET
 &kp RCTRL   &kp N0     &mt EXCLAMATION NUMBER_1  &mt AT_SIGN NUMBER_2  &mt HASH NUMBER_3   &kp BACKSLASH      &kp EQUAL       &kp QUESTION     &kp COMMA             &kp PERIOD             &ext_power EP_ON  &trans
                                                  &kp DEL               &trans              &HMR TAB SPACE     &kp RET         &trans           &kp BACKSPACE
             >;
